@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "title": "First",
+        "content": "...",
+        "timestamp": "1922-11-18T19:16:29.191Z"
+    },
+    {
+        "id": 1,
+        "title": "Second",
+        "content": "...",
+        "timestamp": "1993-3-16T19:22:22.101Z"
+    },
+    {
+        "id": 2,
+        "title": "Third",
+        "content": "...",
+        "timestamp": "2001-06-3T19:17:29.162Z"
+    },
+    {
+        "id": 3,
+        "title": "Fourth",
+        "content": "...",
+        "timestamp": "1876-9-13T02:11:19.391Z"
+    }
+]
