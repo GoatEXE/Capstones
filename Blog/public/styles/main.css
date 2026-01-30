@@ -4,4 +4,11 @@
 
 body {
     background-color: #DCDCDC;
+    height: 100vh;
+}
+
+footer p {
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin: 0;
 }
