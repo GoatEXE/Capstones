@@ -2,6 +2,16 @@
     --primary: #007BFF;
 }
 
+#intro {
+    margin: 6rem;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
 body {
     background-color: #DCDCDC;
     height: 100vh;
