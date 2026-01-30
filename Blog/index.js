@@ -12,7 +12,6 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
     const data = fs.readFileSync(__dirname + '/posts.json', 'utf8');
     const posts = truncatePosts(JSON.parse(data), 97);
-    console.log(posts);
     res.render('index.ejs', { posts: posts});
 })
 

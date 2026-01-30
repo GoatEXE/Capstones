@@ -2,6 +2,10 @@
     --primary: #007BFF;
 }
 
+body {
+    background-color: #DCDCDC;
+}
+
 #intro {
     margin: 6rem;
 }
@@ -12,13 +16,12 @@ h1{
     margin: 1rem;
 }
 
-body {
-    background-color: #DCDCDC;
-    height: 100%;
-}
-
 footer p {
     font-size: 0.9rem;
     font-weight: 100;
     margin: 0;
+}
+
+#posts .row {
+    margin-bottom: 5rem;
 }
