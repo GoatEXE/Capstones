@@ -1,26 +1,30 @@
 [
     {
         "id": 0,
-        "title": "First",
-        "content": "...",
-        "timestamp": "1922-11-18T19:16:29.191Z"
+        "image": "https://images.pexels.com/photos/21005667/pexels-photo-21005667.jpeg",
+        "title": "Absolutely preposterous",
+        "content": "This morning's telegram arrived promptly, announcing progress in inventions that promise to tame both distance and time. The clatter of horse hooves outside remains reassuring, even as talk of machines grows louder in polite society. I write by lamplight, confident that the future will be remarkable, though I hope it remains courteous.",
+        "timestamp": "1876-09-13T02:11:19.391Z"
     },
     {
         "id": 1,
-        "title": "Second",
-        "content": "...",
-        "timestamp": "1993-3-16T19:22:22.101Z"
+        "image": "https://images.pexels.com/photos/823841/pexels-photo-823841.jpeg",
+        "title": "Damn lamps",
+        "content": "Today I experimented with my new electric desk lamp, which hums like a polite insect and makes the room feel vaguely futuristic. Newspapers insist that radio will soon be in every home, though I still trust ink more than invisible voices. I celebrated the evening with a cup of tea and the firm belief that the world is speeding up far faster than my shoes were designed for.",
+        "timestamp": "1922-11-18T19:16:29.191Z"
     },
     {
         "id": 2,
-        "title": "Third",
-        "content": "...",
-        "timestamp": "2001-06-3T19:17:29.162Z"
+        "image": "https://media.istockphoto.com/id/184146944/photo/close-up-of-a-broswer-address-bar.jpg?b=1&s=612x612&w=0&k=20&c=3wRzY7WVv7dPKYMRt5xeVBYAecluR7TgoBFMNyFPsPE=",
+        "title": "I love Netscape!",
+        "content": "I spent the afternoon convincing my computer to connect to the internet, a process involving beeping noises, blinking lights, and deep personal reflection. Everyone says the information superhighway will change everything, but right now it mostly delivers pixelated images very slowly. Still, it feels like the future has arrived—loud, confusing, and absolutely unstoppable.",
+        "timestamp": "1993-03-16T19:22:22.101Z"
     },
     {
         "id": 3,
-        "title": "Fourth",
-        "content": "...",
-        "timestamp": "1876-9-13T02:11:19.391Z"
+        "image": "https://images.pexels.com/photos/29609210/pexels-photo-29609210.jpeg",
+        "title": "New millennium, new me. RAWR ;)",
+        "content": "The new millennium is here, and my calendar insists it is 2001 despite lingering fears of Y2K gremlins. Portable music players now fit in pockets, which seems suspiciously powerful for such a small object. If progress continues at this pace, I expect we'll soon be arguing with machines that talk back.",
+        "timestamp": "2001-06-03T19:17:29.162Z"
     }
 ]

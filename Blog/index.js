@@ -11,10 +11,22 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
     const data = fs.readFileSync(__dirname + '/posts.json', 'utf8');
-    const posts = JSON.parse(data);
+    const posts = truncatePosts(JSON.parse(data), 97);
+    console.log(posts);
     res.render('index.ejs', { posts: posts});
 })
 
 app.listen(port, () => {
     console.log(`Server is running on ${port}`);
 })
+
+function truncatePosts(array, n) {
+    for(let i = 0; i < array.length; i++) {
+        if(array[i].content.length <= n) {
+            continue
+        } else {
+            array[i].content = array[i].content.slice(0, n) + '...';
+        }
+    }
+    return array;
+}
