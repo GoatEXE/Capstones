@@ -6,11 +6,11 @@ body {
     background-color: #DCDCDC;
 }
 
-#intro {
+header {
     margin: 6rem;
 }
 
-h1{
+h1 {
     font-size: 3rem;
     font-weight: 600;
     margin: 1rem;
