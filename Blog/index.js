@@ -8,6 +8,8 @@ const app = express();
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 app.use(express.static('public'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
     const data = fs.readFileSync(__dirname + '/posts.json', 'utf8');
@@ -20,7 +22,7 @@ app.get('/create', (req, res) => {
 })
 
 app.post('/submit', (req, res) => {
-    console.log(req);
+    console.log(req.body);
 })
 
 app.listen(port, () => {
