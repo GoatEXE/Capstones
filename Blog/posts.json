@@ -1,30 +1,86 @@
 [
-    {
-        "id": 0,
-        "image": "https://images.pexels.com/photos/21005667/pexels-photo-21005667.jpeg",
-        "title": "Absolutely preposterous",
-        "content": "This morning's telegram arrived promptly, announcing progress in inventions that promise to tame both distance and time. The clatter of horse hooves outside remains reassuring, even as talk of machines grows louder in polite society. I write by lamplight, confident that the future will be remarkable, though I hope it remains courteous.",
-        "timestamp": "1876-09-13T02:11:19.391Z"
-    },
-    {
-        "id": 1,
-        "image": "https://images.pexels.com/photos/823841/pexels-photo-823841.jpeg",
-        "title": "Damn lamps",
-        "content": "Today I experimented with my new electric desk lamp, which hums like a polite insect and makes the room feel vaguely futuristic. Newspapers insist that radio will soon be in every home, though I still trust ink more than invisible voices. I celebrated the evening with a cup of tea and the firm belief that the world is speeding up far faster than my shoes were designed for.",
-        "timestamp": "1922-11-18T19:16:29.191Z"
-    },
-    {
-        "id": 2,
-        "image": "https://media.istockphoto.com/id/184146944/photo/close-up-of-a-broswer-address-bar.jpg?b=1&s=612x612&w=0&k=20&c=3wRzY7WVv7dPKYMRt5xeVBYAecluR7TgoBFMNyFPsPE=",
-        "title": "I love Netscape!",
-        "content": "I spent the afternoon convincing my computer to connect to the internet, a process involving beeping noises, blinking lights, and deep personal reflection. Everyone says the information superhighway will change everything, but right now it mostly delivers pixelated images very slowly. Still, it feels like the future has arrived—loud, confusing, and absolutely unstoppable.",
-        "timestamp": "1993-03-16T19:22:22.101Z"
-    },
-    {
-        "id": 3,
-        "image": "https://images.pexels.com/photos/29609210/pexels-photo-29609210.jpeg",
-        "title": "New millennium, new me. RAWR ;)",
-        "content": "The new millennium is here, and my calendar insists it is 2001 despite lingering fears of Y2K gremlins. Portable music players now fit in pockets, which seems suspiciously powerful for such a small object. If progress continues at this pace, I expect we'll soon be arguing with machines that talk back.",
-        "timestamp": "2001-06-03T19:17:29.162Z"
-    }
+  {
+    "id": 0,
+    "image": "https://images.pexels.com/photos/21005667/pexels-photo-21005667.jpeg",
+    "title": "Absolutely preposterous",
+    "content": "This morning's telegram arrived promptly, announcing progress in inventions that promise to tame both distance and time. The clatter of horse hooves outside remains reassuring, even as talk of machines grows louder in polite society. I write by lamplight, confident that the future will be remarkable, though I hope it remains courteous.",
+    "timestamp": "1876-09-13T02:11:19.391Z"
+  },
+  {
+    "id": 1,
+    "image": "https://images.pexels.com/photos/823841/pexels-photo-823841.jpeg",
+    "title": "Damn lamps",
+    "content": "Today I experimented with my new electric desk lamp, which hums like a polite insect and makes the room feel vaguely futuristic. Newspapers insist that radio will soon be in every home, though I still trust ink more than invisible voices. I celebrated the evening with a cup of tea and the firm belief that the world is speeding up far faster than my shoes were designed for.",
+    "timestamp": "1922-11-18T19:16:29.191Z"
+  },
+  {
+    "id": 2,
+    "image": "https://media.istockphoto.com/id/184146944/photo/close-up-of-a-broswer-address-bar.jpg?b=1&s=612x612&w=0&k=20&c=3wRzY7WVv7dPKYMRt5xeVBYAecluR7TgoBFMNyFPsPE=",
+    "title": "I love Netscape!",
+    "content": "I spent the afternoon convincing my computer to connect to the internet, a process involving beeping noises, blinking lights, and deep personal reflection. Everyone says the information superhighway will change everything, but right now it mostly delivers pixelated images very slowly. Still, it feels like the future has arrived—loud, confusing, and absolutely unstoppable.",
+    "timestamp": "1993-03-16T19:22:22.101Z"
+  },
+  {
+    "id": 3,
+    "image": "https://images.pexels.com/photos/29609210/pexels-photo-29609210.jpeg",
+    "title": "New millennium, new me. RAWR ;)",
+    "content": "The new millennium is here, and my calendar insists it is 2001 despite lingering fears of Y2K gremlins. Portable music players now fit in pockets, which seems suspiciously powerful for such a small object. If progress continues at this pace, I expect we'll soon be arguing with machines that talk back.",
+    "timestamp": "2001-06-03T19:17:29.162Z"
+  },
+  {
+    "id": 4,
+    "image": "https://images.pexels.com/photos/30712881/pexels-photo-30712881.jpeg",
+    "title": "Vacation Outside",
+    "content": "It's been so long since I've stepped away from my screens that I almost forgot what the sun felt like. Incredible. Have you ever felt what grass is like? Highly recommend. It's so hard to imageine how civilization lasted without the luxuries that I just aboslutely cannot live without.",
+    "timestamp": "2026-01-31T22:31:35.190Z"
+  },
+  {
+    "id": 5,
+    "image": "https://images.pexels.com/photos/11710530/pexels-photo-11710530.jpeg",
+    "title": "Foodies",
+    "content": "I love to eat foot. It's so good. Did you know you actaully can't survive without it? My friends and I consider ourselves professional foodies. We post our meals to social media. We've actually got quite the large following. Apparently, people are massive fans of seeing the same picture of chicken nuggets every day.",
+    "timestamp": "2026-01-31T22:37:20.273Z"
+  },
+  {
+    "id": 6,
+    "image": "https://images.pexels.com/photos/2473502/pexels-photo-2473502.jpeg",
+    "title": "Fishing Success!",
+    "content": "I've been fishing since I was a kid. It's probably one of my favorite pastimes. There's just something about sitting in a boat, line in the water, boat rocking gently, and literally never catching a fish in my life. Worlds most successful loser! Winning.",
+    "timestamp": "2026-01-31T22:42:01.055Z"
+  },
+  {
+    "id": 7,
+    "image": "https://images.pexels.com/photos/12700514/pexels-photo-12700514.jpeg",
+    "title": "Showering Regularly",
+    "content": "Highly recommend showering. They're great. The feeling of being all fresh and clean is unlike any other. You know, in moment of clarity, it's insanely obvious now that I am now likable now that I shower more than once a month. Saving the environment is not worth being avoided at all costs.",
+    "timestamp": "2026-01-31T22:42:16.834Z"
+  },
+  {
+    "id": 8,
+    "image": "https://images.pexels.com/photos/261185/pexels-photo-261185.jpeg",
+    "title": "Public Pools",
+    "content": "Have you even been exhausted after a long day of doing absolutely nothing? Is the heat just too unbearable? I've discovered that pools exist. You pay money to go to a public source of water (unsimilar to your baththub, FYI) and just stand in the water. Amazing! I even felt audacious enough to wave my hands around in pure excitement. Wow, definately going again.",
+    "timestamp": "2026-01-31T22:42:33.904Z"
+  },
+  {
+    "id": 9,
+    "image": "https://images.pexels.com/photos/17313073/pexels-photo-17313073.jpeg",
+    "title": "Wine Tasting",
+    "content": "I've recently discovered the world of wines. There's so much. White, red, dry, sweet... My head spins with the details, much like my head spins when I'm done drinking it. And to think that there's more out there than just drinking water. I'll never be drinking hydrogen dioxide ever again.",
+    "timestamp": "2026-01-31T22:46:49.260Z"
+  },
+  {
+    "id": 10,
+    "image": "https://images.pexels.com/photos/33334417/pexels-photo-33334417.jpeg",
+    "title": "Man's Best Friend",
+    "content": "I've always been a dog person. They're capable of so much! Especially of my teacup poochie. She's so tiny that she shivers all the time in pure fright at everything and anything. She also feels the need to be overly aggressive just to survive. I'm so in love with this dog! ",
+    "timestamp": "2026-01-31T22:46:55.605Z"
+  },
+  {
+    "id": 11,
+    "image": "https://images.pexels.com/photos/29480626/pexels-photo-29480626.jpeg",
+    "title": "Nature Rocks",
+    "content": "I've been spending a lot of time outdoors recently. I'll take my dog outside and smoke briefly, and go back inside. Nature is so... natural. From the breeze on my skin, to the smell of the industrial complex next door. I really couldn't survive from this dopamine rush.",
+    "timestamp": "2026-01-31T22:47:20.467Z"
+  }
 ]

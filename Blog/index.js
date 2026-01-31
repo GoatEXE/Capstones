@@ -22,7 +22,19 @@ app.get('/create', (req, res) => {
 })
 
 app.post('/submit', (req, res) => {
-    console.log(req.body);
+    const data = fs.readFileSync(__dirname + '/posts.json', 'utf8');
+    
+    const newPost = {
+        id: JSON.parse(data).length,
+        image: req.body.image,
+        title: req.body.title,
+        content: req.body.content,
+        timestamp: new Date().toISOString()
+    };
+
+    const updatedPosts = [...JSON.parse(data), newPost];
+    fs.writeFileSync(__dirname + '/posts.json', JSON.stringify(updatedPosts, null, 2));
+    res.redirect('/');
 })
 
 app.listen(port, () => {
