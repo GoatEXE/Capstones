@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url';
 const port = 3000;
 const app = express();
 const __dirname = dirname(fileURLToPath(import.meta.url));
+const data = fs.readFileSync(__dirname + '/posts.json', 'utf8');
 
 app.use(express.static('public'));
 app.use(express.json());
@@ -23,7 +24,7 @@ app.get('/create', (req, res) => {
 
 app.post('/submit', (req, res) => {
     const data = fs.readFileSync(__dirname + '/posts.json', 'utf8');
-    
+
     const newPost = {
         id: JSON.parse(data).length,
         image: req.body.image,
@@ -36,6 +37,17 @@ app.post('/submit', (req, res) => {
     fs.writeFileSync(__dirname + '/posts.json', JSON.stringify(updatedPosts, null, 2));
     res.redirect('/');
 })
+
+app.get('/post/:id', (req, res) => {
+    const postId = parseInt(req.params.id);
+    const post = JSON.parse(data).find(p => p.id === postId);
+
+    if (post) {
+        res.render('post.ejs', { post: post });
+    } else {
+        res.status(404).send('Post not found');
+    }
+});
 
 app.listen(port, () => {
     console.log(`Server is running on ${port}`);

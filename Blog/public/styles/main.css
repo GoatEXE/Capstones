@@ -34,3 +34,10 @@ a:hover .card {
     transform: translateY(-4px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
+
+#post-image {
+    width: 100%;
+    max-width: 80rem;
+    border: 1px solid var(--primary);
+    border-radius: 0.5rem;
+}

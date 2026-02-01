@@ -1,0 +1,11 @@
+<%- include('partials/header.ejs') %>
+
+<div class="d-flex flex-row justify-content-center m-5">
+    <img id="post-image" class="img-fluid" src="<%= post.image %>" alt="<%= post.title %>">
+</div>
+
+
+<h1 class="text-center mb-2"><%= post.title %></h1>
+<p class="m-5"><%= post.content %></p>
+
+<%- include('partials/footer.ejs') %>
