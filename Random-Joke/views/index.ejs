@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Reddit Joke</title>
+</head>
+<body>
+    <div>
+        <% if (!locals.joke) { %>
+            <p>No joke found. Please try again.</p>
+        <% } else { %>
+            <p><%= joke.title %></p>
+            <p><%= joke.body %></p>
+        <% } %>
+    </div>
+</body>
+</html>
