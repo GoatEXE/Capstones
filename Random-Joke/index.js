@@ -6,7 +6,7 @@ const PORT = 3000;
 const pullLimit = 100;
 const API_URL = `https://www.reddit.com/r/jokes.json?limit=${pullLimit}`;
 
-app.use(express.static("public"));
+app.use(express.static('public'));
 
 app.get("/", async (req, res) => {
     try {
