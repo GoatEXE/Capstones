@@ -12,13 +12,22 @@ body {
     background-size: auto;
     
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
 }
 
-p {
-    margin: 0;
-    padding: 0;
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+img.icon {
+    height: 1.75rem;
+    padding-right: 0;
+}
+
+span.col-1 {
+    padding-right: 3rem;
 }
 
 .joke-content {
@@ -35,6 +44,26 @@ p {
     min-width: 30rem;
 
     /* positioning */
-    margin: 0 auto;
+    margin: 2rem auto;
     padding: 1rem;
+
+    /* transition */
+    transition: transform 1s ease, box-shadow 1s ease;
+}
+
+.joke-content:hover {
+    transform: scale(1.03);
+    box-shadow: 15px 15px 20px var(--border);
+}
+
+.joke-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin: 0 auto;
+}
+
+.joke-link:hover {
+    text-decoration: none;
+    color: inherit;
 }

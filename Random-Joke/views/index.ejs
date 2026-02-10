@@ -10,15 +10,27 @@
 </head>
 
 <body>
+
 <div class="container align-items-center d-flex min-vh-100">
-    <div class="joke-content">
-        <% if (!locals.joke) { %>
-            <p>No joke found. Please try again.</p>
-        <% } else { %>
-            <p><%= joke.title %></p>
-            <p><%= joke.body %></p>
-        <% } %>
-    </div>
+    <% if (locals.joke) { %>
+        <a href="<%= joke.link %>" class="joke-link">
+            <div class="joke-content">
+                <h6 class="mb-4"><%= joke.title %></h6>
+                <pre><%= joke.body %></pre>
+                <div class="row mt-4">
+                    <img src="/rss/arrow-up-outline.svg" alt="Arrow up" class="icon col-1">
+                    <span class="col-1"><%= joke.upvotes %></span>
+                    <img src="/rss/chatbox-outline.svg" alt="Chatbox" class="icon col-1">
+                    <span class="col-1"><%= joke.comments %></span>
+                    <span class="col-auto ms-auto">u/<%= joke.author %></span>
+                </div>
+            </div>
+        </a>
+    <% } else { %>
+        <div>
+            <h1 class="joke-content text-center">No joke found. Please try again.</h1>
+        </div>
+    <% } %>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
